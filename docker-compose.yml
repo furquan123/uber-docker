@@ -1,0 +1,17 @@
+version: '3'
+services:
+  cab:
+    image: fk23/ubercab:v1
+    ports:
+      - "8000:80"
+
+  bike:
+    image: fk23/uberbike:v1
+    ports: 
+      - "8001:80"
+
+  auto: 
+    image: fk23/uberauto:v1
+    ports: 
+      - "8002:80"    
+
